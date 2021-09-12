@@ -93,10 +93,20 @@ nav {
     box-shadow: 0 3px #249e89;
 }
 
+.ios-button:hover {
+    background: hsl(171, 52%, 58%);
+    box-shadow: 0 3px hsl(168, 39%, 53%);
+}
+
 .mac-button {
     background: hsl(233, 100%, 69%);
     margin-bottom: 50px;
     box-shadow: 0 3px #4f62d8;
+}
+
+.mac-button:hover {
+    background: hsl(233, 100%, 77%);
+    box-shadow: 0 3px hsl(233, 63%, 69%);
 }
 
 .computer-images {
@@ -129,10 +139,22 @@ nav {
     font-size: 1.1rem;
 }
 
+.bottom-nav-links:hover {
+    color: hsl(171, 66%, 44%);
+}
+
 .social-links {
     display: flex;
     gap: 35px;
     margin-top: 50px;
+}
+
+.social-links > svg {
+    fill: #4C545C;
+}
+
+.social-links > svg:hover {
+    fill: hsl(171, 66%, 44%);
 }
 
 .attribution { font-size: 11px; text-align: center; }
