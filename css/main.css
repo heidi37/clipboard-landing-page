@@ -1,11 +1,10 @@
 
 html {
-
+    /* font-size: 18px; */
 }
 
 body {
     font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 18px;
     font-weight: 400;
     color: hsl(201, 11%, 66%);
 }
@@ -15,7 +14,12 @@ header {
     background-image: url('../images/bg-header-mobile.png');
     background-repeat: no-repeat;
     background-position: center top;
-    padding-top: 120px;
+    background-size: cover;
+    padding: 120px 20px 0 20px;
+}
+
+main {
+    padding: 0 20px;
 }
 
 h1, h2, h3 {
@@ -24,52 +28,111 @@ h1, h2, h3 {
 }
 
 h1 {
-
+    font-size: 2rem;
 }
 
 h2 {
-
+    font-size: 1.7rem;
+    margin-top: 160px;
+    padding: 0 13px;
 }
 
-h3 {
+h2:nth-of-type(3n) {
+    margin-top: 100px;
+}
 
+h2:nth-of-type(4n) {
+    margin-top: 130px;
+}
+
+
+h3 {
+    font-size: 1.4rem;
+    margin: 50px 0 20px;
 }
 
 p {
-
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0 13px;
 }
 
-nav {
-    background: #f5f6f8;
+aside, nav {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
-.bottom-logo {
-
+aside {
+    margin-top: 90px;
 }
 
-.container {
-    padding: 0 20px;
-    text-align: center;
+aside img {
+    padding: 40px;
+}
+
+nav {
+    background: #f5f6f8;
+    margin-top: 170px;
+    padding: 15px 0 50px 0;
+}
+
+.ios-button, .mac-button {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 25px 15px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    letter-spacing: .05em;
 }
 
 .ios-button {
- background: hsl(171, 66%, 44%);
+    background: hsl(171, 66%, 44%);
+    margin-top: 50px;
+    box-shadow: 0 3px #249e89;
 }
 
 .mac-button {
     background: hsl(233, 100%, 69%);
+    margin-bottom: 50px;
+    box-shadow: 0 3px #4f62d8;
+}
+
+.computer-images {
+    width: 95%;
+    margin-top: 50px;
+}
+
+.feature-icons {
+    margin-top: 50px;
+}
+
+.feature-icons:nth-of-type(1n){
+    margin-top: 75px;
+}
+
+.bottom-logo {
+    transform: scale(.44);
+}
+
+.container {
+    /* padding: 0 20px; */
+    text-align: center;
 }
 
 .bottom-nav-links {
     display: flex;
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    padding: 15px;
+    font-size: 1.1rem;
 }
 
 .social-links {
     display: flex;
-    gap: 10px;
+    gap: 35px;
+    margin-top: 50px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
