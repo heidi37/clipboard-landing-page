@@ -143,6 +143,12 @@ nav {
     font-size: 1.1rem;
 }
 
+.links-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .bottom-nav-links:hover {
     color: hsl(171, 66%, 44%);
 }
@@ -276,6 +282,59 @@ nav {
 
     nav {
         margin-top: 110px;
+    }
+
+    .footer-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 75px;
+        padding-top: 40px;
+    }
+
+    .links-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-basis: 600px;
+        flex-wrap: wrap;
+        margin-left: -110px;
+    }
+
+    .social-links {
+        margin-top: 0;
+        align-items: center;
+    }
+
+    /*faq*/
+    #faq {
+        order: 1;
+        flex-basis: 33%;
+    }   
+
+     /*contact-us*/
+    #contact-us {
+        order: 4;
+        flex-basis: 33%;
+
+    }
+
+     /*privacy-policy*/
+    #privacy-policy {
+        order: 2;
+        flex-basis: 33%;
+    }
+    /*press-kit*/
+    #press-kit {
+        order: 5;
+        flex-basis: 33%;
+    }
+
+    /*install-guide*/
+    #install-guide {
+        order: 3;
+        flex-basis: 33%;
     }
 
 }
