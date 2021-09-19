@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://heidi37.github.io/clipboard-landing-page/)
+- Solution URL: [https://www.frontendmentor.io/solutions/clipboard-responsive-landing-page-using-css3-and-flexbox-lNOhusAOV](https://www.frontendmentor.io/solutions/clipboard-responsive-landing-page-using-css3-and-flexbox-lNOhusAOV)
+- Live Site URL: [https://heidi37.github.io/clipboard-landing-page/](https://heidi37.github.io/clipboard-landing-page/)
 
 ## My process
 
