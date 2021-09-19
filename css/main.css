@@ -91,6 +91,8 @@ nav {
     border-radius: 30px;
     font-size: 1.1rem;
     letter-spacing: .05em;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .ios-button {
@@ -175,6 +177,13 @@ nav {
 
 /* MEDIA QUERIES */
 
+@media (min-width: 768px) {
+
+    .computer-images {
+        width: 50%;
+    }
+
+}
 @media (min-width: 1440px) {
 
     h1 {
